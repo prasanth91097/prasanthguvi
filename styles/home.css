@@ -1,0 +1,610 @@
+span
+{
+  
+margin: 0;
+
+padding: 0;
+  
+border: 0;
+  
+font-size: 100%;
+  
+font: inherit;
+  
+vertical-align: baseline;
+  
+font-family: "Mukta",sans-serif; 
+}
+
+
+
+.shadow 
+{
+  
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+
+.violet-icon 
+{
+  
+color: #7003ec; 
+}
+
+
+.header 
+{
+  
+height: 50px;
+  
+margin-bottom: 15px; 
+}
+  
+.header .logo 
+{
+    
+height: 30px;
+    
+margin: 10px; 
+}
+
+
+.sticky-sidemenu 
+{
+  
+position: fixed;
+  
+top: 100px;
+  
+left: 20px;
+  
+display: flex;
+  
+flex-direction: column; 
+}
+  
+.sticky-sidemenu .edit 
+{
+    
+padding: 12px;
+    
+font-size: 12px; 
+}
+  
+.sticky-sidemenu .item 
+{
+    
+height: 100px;
+    
+padding: 10px;
+    
+text-align: -webkit-center; 
+}
+    
+.sticky-sidemenu .item i 
+{
+      
+color: #7003ec;
+      
+font-size: 22px;
+      
+font-weight: 600;
+      
+padding-bottom: 15px; 
+}
+    
+.sticky-sidemenu .item .txt 
+{
+      
+border-bottom: 1px solid black;
+      
+padding-bottom: 5px;
+      
+font-size: 13px; 
+}
+
+
+.content 
+{
+  
+margin-left: 200px; 
+}
+  
+.content .common-item 
+{
+    
+float: right;
+    
+padding: 0 20px;
+    
+margin-bottom: 20px; 
+}
+    
+.content .common-item i 
+{
+      
+padding-right: 10px;
+      
+color: #7003ec;
+      
+font-size: 22px; 
+}
+    
+.content .common-item .text 
+{
+      
+font-size: 13px; 
+}
+
+
+.profile 
+{
+  
+clear: both;
+  
+margin-top: 20px;
+  
+padding-right: 20px; 
+}
+  
+.profile .info 
+{
+    
+display: flex;
+    
+flex-direction: row; 
+}
+    
+.profile .info .img 
+{
+      
+flex: 1;
+      
+display: flex;
+      
+flex-direction: column; 
+}
+      
+.profile .info .img img 
+{
+        
+height: 85px;
+        
+width: 75px; 
+}
+      
+.profile .info .img div 
+{
+        
+text-transform: uppercase;
+        
+color: #7003ec; 
+}
+    
+.profile .info .desc 
+{
+      
+flex: 4; 
+}
+      
+.profile .info .desc .name 
+{
+        
+font-size: 30px;
+        
+color: #7003ec; 
+}
+        
+.profile .info .desc .name i 
+{
+          
+color: gray;
+          
+font-size: 25px;
+          
+margin-left: 10px; 
+}
+    
+.profile .info .skills
+ {
+      
+display: flex;
+      
+flex-direction: row; 
+}
+      
+.profile .info .skills .skill
+{
+        
+border-radius: 25px;
+        
+min-width: 70px;
+        
+margin: 0 10px;
+        
+padding: 10px;
+        
+text-align:center; 
+margin-top:50px;
+font-color:#404D6F;
+}
+  
+
+
+
+
+  
+.profile .info .links 
+{
+      
+flex: 2;
+      
+display: flex;
+      
+align-items: center; 
+}
+      
+.profile .info .links .link 
+{
+        
+flex: 1;
+        
+display: flex;
+        
+flex-direction: column;
+margin-top:-100px; 
+}
+        
+.profile .info .links .link i 
+{
+          
+font-size: 25px; 
+}
+
+
+.horizondalline
+{
+margin-left:150px;
+margin-top:70px;
+
+}
+
+
+.acadamic
+.acadamic1
+  
+{
+    
+text-transform:uppercase;
+
+font-size: 28px;
+    
+margin-left:200px;
+
+}
+.acadamic
+.collage
+{
+position:absolute;
+left:200px;
+top:420px
+}
+
+
+
+.acadamic
+.highersecondary
+{
+position:absolute;
+left:600px;
+top:420px
+}
+.acadamic
+.secondary
+{
+position:absolute;
+left:1000px;
+top:420px
+}
+
+
+
+.horizondalline1
+{
+margin-left:150px;
+margin-top:180px;
+}
+.c1
+{
+font-size:36px;
+}
+.c2
+{
+font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.languageknown
+.acadamic1
+  
+{
+    
+text-transform:uppercase;
+
+
+font-size: 28px;
+    
+margin-left:200px;
+
+}
+
+
+
+.python
+{
+        
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+width:1120px;
+height:350px;
+margin-left:180px;
+margin-top:50px;
+}
+  
+
+
+.pythonlevel
+{
+margin-left:20px;
+font-size:20px;
+text-decoration:underline #77FF33;
+margin-top:20px;
+}
+.circle
+{
+margin-left:450px;
+margin-top:30px;
+}
+.circle1
+{
+position:absolute;
+left:700px;
+top:760px;
+font-size:24px;
+}
+.circle2
+{
+position:absolute;
+left:700px;
+top:770px;
+font-size:18px;
+font-color:#404D6F;
+}
+.pythonlevel1
+{
+margin-left:380px;
+margin-top:50px;
+}
+.pythonlevel2
+{
+position:absolute;
+left:850px;
+top:860px;
+}
+.pl1
+{
+font-size:36px;
+top:5px;
+}
+.pl2
+{
+font-size:20px;
+top:5px;
+}
+
+.horizondalline2
+{
+margin-left:150px;
+margin-top:50px;
+}
+
+
+
+.practice0
+{
+font-size:28px;
+margin-left:200px;
+}
+.practice1
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+width:500px;
+height:1000px;
+margin-left:180px;
+margin-top:50px;
+}
+
+
+
+.practice2
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+width:500px;
+height:1000px;
+margin-left:750px;
+margin-top:-1000px;
+}
+
+
+
+.practice3
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+width:330px;
+height:300px;
+margin-left:180px;
+margin-top:50px;
+}
+
+
+
+.practice4
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+width:330px;
+height:300px;
+margin-left:550px;
+margin-top:-298px;
+}
+
+
+
+.practice5
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+width:330px;
+height:300px;
+margin-left:925px;
+margin-top:-298px;
+}
+.pr2
+{
+position:absolute;
+top:1200px;
+left:650px;
+}
+.pr1
+{
+font-size:20px;
+position:absolute;
+top:1200px;
+left:200px;
+}
+.pr3
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+height: 50px;
+width: 50px;
+border-radius: 50%;
+display:inline-block;
+margin-left:30px;
+margin-top:150px;
+text-align:center;
+}
+
+.pr4
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+height: 50px;
+width: 50px;
+border-radius: 50%;
+display:inline-block;
+margin-left:125px;
+margin-top:150px;
+text-align:center;
+}
+.pr5
+{
+box-shadow:0 2px 16px 0 rgba(0,0,0,0.5);
+height: 50px;
+width: 50px;
+border-radius: 50%;
+display:inline-block;
+margin-left:120px;
+margin-top:150px;
+text-align:center;
+}
+.pr1
+{
+display:flex;
+flex-direction:row;
+
+}
+.pra12
+{
+font-size:24px;
+position:absolute;
+left:520px;
+}
+.pra11
+{
+font-size:24px;
+position:absolute;
+left:380px;
+}
+.pra10
+{
+font-size:24px;
+position:relative;
+left:30px;
+
+}
+
+
+
+
+
+
+
+
+}
+
+.container 
+{
+  width: 225px;
+  height:12px;
+  background-color: #ddd;
+}
+
+.skills
+{
+margin-left:90px;
+padding:0px;
+color: white;
+}
+
+.beginner
+{
+width: 70%; 
+background-color: #4CAF50;
+}
+.player 
+{
+width: 40%; 
+background-color: #4CAF50;
+}
+.hunter 
+{
+width: 30%; 
+background-color: #4CAF50;
+}
+.pro 
+{
+width: 17%;
+background-color: #4CAF50;
+}
+
+.c++
+{
+display:flex;
+flex-direction:row;
+border-radius: 100px 100px 100px 100px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+width: 130px;
+height: 40px;
+}
+
+
+
+
+
